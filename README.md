@@ -1,7 +1,6 @@
 # Hum Kalaam: ASL Avatar
 
 **CT-361 Artificial Intelligence & Expert Systems · Complex Computing Activity (CCA)**
-Group: Sameen Ali (CT-24207) · Emaan Arif Khan (CT-24209) · Arooj Zahra (CT-24215)
 
 https://hum-kalaam-green.vercel.app/
 
