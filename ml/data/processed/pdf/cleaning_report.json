@@ -1,0 +1,16 @@
+{
+  "noise_lines_removed": 585,
+  "headers_removed": 124,
+  "plate_pages_dropped": 21,
+  "hyphenations_joined": 3,
+  "lines_repaired": 204,
+  "pages": 226,
+  "raw_characters": 239279,
+  "clean_lines": 4661,
+  "entries": 935,
+  "headwords": 1188,
+  "entries_with_synonyms": 198,
+  "entries_with_handshape": 484,
+  "index_words": 655,
+  "index_words_found_as_headwords": 568
+}

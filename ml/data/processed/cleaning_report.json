@@ -1,0 +1,22 @@
+{
+  "frames_raw": 124854,
+  "frames_body_model_run": 63534,
+  "frames_without_body": 238,
+  "body_frames_interpolated": 60153,
+  "frames_dropped_no_body": 1405,
+  "hand_detections": 119056,
+  "duplicate_hand_detections_removed": 2747,
+  "mediapipe_hand_label_overruled": 4449,
+  "hand_frames_interpolated": 6142,
+  "videos_left_dominant_mirrored": 548,
+  "frames_kept": 123449,
+  "frames_with_dominant_hand": 71664,
+  "videos_seen": 1892,
+  "videos_right_dominant": 1344,
+  "videos_not_extracted": 27,
+  "rows": 123449,
+  "feature_columns": 176,
+  "videos_kept": 1892,
+  "glosses": 207,
+  "missing_cells_pct": 45.82
+}

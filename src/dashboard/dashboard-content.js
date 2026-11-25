@@ -1,0 +1,115 @@
+// Static content for the dashboard's Papers and Files tabs.
+
+export const RELATED_WORK = `Recent research recognises isolated signs from video, increasingly from body and hand points instead of pixels. It compares recurrent models with attention models, and uses semi-supervised learning when labelled data is scarce. We follow the same path: hand and body points from WLASL, a recurrent model (GRU), and pseudo-labels, with small models that run in a browser.`;
+
+// [group, title, authors, venue, url, summary, what we took]
+export const PAPERS = [
+	['Sign recognition', 'Word-level Deep Sign Language Recognition from Video: A New Large-scale Dataset and Methods Comparison', 'D. Li, C. Rodriguez Opazo, X. Yu, H. Li', 'WACV 2020', 'https://arxiv.org/abs/1910.11006',
+		'Introduces WLASL, the largest word-level ASL video dataset, and compares appearance-based and pose-based recognition models on it.',
+		'Our sign dataset, and the idea of recognising signs from body and hand poses.'],
+	['Sign recognition', 'A Comparative Analysis of Recurrent and Attention Architectures for Isolated Sign Language Recognition', 'N. Alishzade, G. Abdullayeva', 'PCI 2025', 'https://arxiv.org/abs/2511.13126',
+		'Compares recurrent networks with attention-based models for recognising isolated signs.',
+		'The starting point for using a recurrent model (GRU) on our movement sequences.'],
+	['Sign recognition', 'SSLR: A Semi-Supervised Learning Method for Isolated Sign Language Recognition', 'H. Algafri, H. Luqman, S. Alyami, I. Laradji', '2025', 'https://arxiv.org/abs/2504.16640',
+		'Uses pseudo-labelling so a sign recogniser can also learn from data without labels.',
+		'Pseudo-labels for our letter model (19 confident labels added, 58.5% → 72.3%).'],
+];
+
+// Folder tree: [name, description] for a file, [name, description, children] for a folder.
+export const TREE = [
+	['index.html', 'The app: avatar, message box and camera panel.'],
+	['main.js', 'Starts the app: text and voice to sign, playback controls and vocabulary.'],
+	['dashboard.html', 'This results dashboard.'],
+	['src/', 'The app\'s code (JavaScript, runs in the browser).', [
+		['app-shell.js', 'Two tabs at the bottom, like a phone app: “Text or voice to sign” and “Sign to text”.'],
+		['styles.css', 'App design, light and dark mode.'],
+		['avatar/', '3D avatar.', [['stage.js', 'three.js scene: puts the signing on the avatar\'s skeleton and plays it.']]],
+		['camera/', 'Sign to text.', [
+			['camera-tracker.js', 'Webcam → hand and body landmarks every frame (MediaPipe), on the device.'],
+			['camera-ui.js', 'The camera panel: transcript, top guesses, read-aloud, teach mode, live view.'],
+			['features.js', 'Hand positions and handshapes measured from the body.'],
+			['recognizer.js', 'Splits the stream into signs and letters, asks the sign models, reads held letters.'],
+			['core-words.js', 'The 20 words the camera recognises.'],
+			['teach.js', 'Teach mode: record your own examples of a word.'],
+			['templates.js', 'Reference movements built from the sign descriptions (knowledge-based baseline).'],
+		]],
+		['ml/', 'Trained models in the browser.', [
+			['landmark-features.js', 'JavaScript copy of the Python cleaning, so the app describes movement exactly like the training data.'],
+			['sign-model.js', 'Runs the GRU and XGBoost models (ONNX) and averages them.'],
+			['learned-classifier.js', 'Connects the camera recogniser to the sign models.'],
+			['similar-signs.js', 'Similar-sign suggestions for unknown words (extension, off).'],
+			['learned-motion.js', 'Avatar motion from real signers (extension, off).'],
+		]],
+		['text-to-sign/', 'Text and voice to sign.', [
+			['normalize.js', 'Splits text into words and flags unsupported characters.'],
+			['plan.js', 'Looks up each word and builds one animation clip.'],
+			['lexicon.js', 'One lookup over every sign vocabulary.'],
+			['lexicon-daily.js', 'Sign descriptions, part 1 (171 signs).'],
+			['lexicon-daily-2.js', 'Sign descriptions, part 2 (273 signs).'],
+			['lexicon-forms.js', 'Extra spellings: tenses, plurals, synonyms, romanised Urdu.'],
+		]],
+		['voice/', 'Speech in and out.', [
+			['voice-input.js', 'Speech to text in the browser (US, UK, Indian and Pakistani English).'],
+			['sign-queue.js', 'Holds spoken sentences while the avatar is still signing.'],
+			['speak.js', 'Reads text aloud.'],
+		]],
+		['dashboard/', 'This dashboard.', [
+			['dashboard.js', 'Tabs, charts and tables, read from public/ml/dashboard.json.'],
+			['dashboard-content.js', 'The papers and this file tree.'],
+			['dashboard.css', 'Dashboard design.'],
+		]],
+		['vendor/three-ws/', 'Open-source signing engine (Apache-2.0): sign notation, arm movement, fingerspelling, retargeting. Used unchanged.'],
+	]],
+	['public/', 'Files served as they are.', [
+		['avatar.glb', 'The 3D avatar.'],
+		['models/', 'MediaPipe hand and body landmark models.'],
+		['mediapipe/wasm/', 'MediaPipe\'s runtime, so nothing is downloaded while the app runs.'],
+		['ml/', 'The trained sign models (ONNX), plus this dashboard\'s data and figures.'],
+	]],
+	['ml/', 'The AI pipeline (Python, runs on a CPU).', [
+		['scripts/', 'One script per step.', [
+			['download_data.py', 'Downloads the WLASL videos and the ASL Alphabet images.'],
+			['extract_landmarks.py', 'Runs MediaPipe on every video frame; one row per frame.'],
+			['clean_landmarks.py', 'Cleans the landmarks and builds the 176 features.'],
+			['tabular_models.py', 'Sign models: Random Forest → XGBoost → GRU → ensemble.'],
+			['tabular_cv.py', '5-fold cross-validation on the app\'s 20 words.'],
+			['image_models.py', 'Letter models: pixel baseline → EfficientNet-B0 → pseudo-labels → fusion.'],
+			['eval_template_recognizer.mjs', 'Scores the knowledge-based baseline on the same real videos.'],
+			['export_test_raw.py', 'Test data for checking the JavaScript copy of the cleaning.'],
+			['export_for_app.py', 'Copies the models and this dashboard\'s data into public/ml/.'],
+			['pdf_entries.py', 'Parses a 1910 sign dictionary (PDF) into entries (extension).'],
+			['nlp_text_to_gloss.py', 'English word → sign with BERT (extension).'],
+			['pose_generation.py', 'Avatar motion learned from real signers (extension).'],
+			['export_app_vocab.mjs', 'Exports the app\'s vocabulary for the extensions.'],
+			['export_avatar_trajectories.mjs', 'Exports the avatar\'s sign paths for the extensions.'],
+		]],
+		['data/raw/', 'Downloaded videos and images (not in git).'],
+		['data/processed/', 'Landmarks, the clean feature table and cleaning reports.'],
+		['results/', 'Every metric, as JSON.'],
+		['figures/', 'Charts and confusion matrices.'],
+		['models/', 'Trained models (not in git).'],
+		['requirements.txt', 'Python libraries.'],
+	]],
+	['tests/', 'Automated tests (npm test).', [
+		['ml-features.test.mjs', 'The JavaScript features and ONNX models match Python on real WLASL frames.'],
+		['recognizer.test.mjs', 'The camera recogniser on simulated signers.'],
+		['core-words.test.mjs', 'The 20 camera words.'],
+		['teach.test.mjs', 'Teach mode.'],
+		['text-to-sign.test.mjs', 'Words → signed, fingerspelled, left out or not supported.'],
+		['lexicon.test.mjs', 'Every phase of all 476 signs is reachable and stays clear of the body.'],
+		['avatar-retarget.test.mjs', 'Signing plays correctly on the real avatar skeleton.'],
+		['voice-input.test.mjs', 'Voice input with a simulated microphone.'],
+		['sign-queue.test.mjs', 'The queue of spoken sentences.'],
+	]],
+	['scripts/', 'Small tools.', [
+		['eval-recognizer.mjs', 'Measures the knowledge-based recogniser on simulated signers.'],
+		['eval-core-words.mjs', 'Same, for the 20 camera words.'],
+		['tune-recognizer.mjs', 'Picks the recogniser\'s acceptance thresholds.'],
+		['fix-avatar-materials.mjs', 'Converts the avatar\'s materials to the standard format.'],
+	]],
+	['package.json', 'JavaScript dependencies and commands (dev, test, build).'],
+	['vite.config.js', 'Build settings.'],
+	['vercel.json, netlify.toml', 'Hosting settings.'],
+	['README.md', 'Project overview.'],
+	['AGENTS.md', 'Everything about the project in one place, including how AI tools were used.'],
+];

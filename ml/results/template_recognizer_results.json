@@ -1,0 +1,1388 @@
+{
+ "all_app20_videos": {
+  "videos": 171,
+  "accepted_and_correct": 0.269,
+  "accepted_any": 0.643,
+  "top1": 0.351,
+  "top5": 0.819,
+  "no_movement_found": 0
+ },
+ "test_split": {
+  "videos": 19,
+  "accepted_and_correct": 0.263,
+  "accepted_any": 0.842,
+  "top1": 0.263,
+  "top5": 0.947,
+  "no_movement_found": 0
+ },
+ "rows": [
+  {
+   "video_id": "69345",
+   "split": "val",
+   "truth": "GO",
+   "accepted": null,
+   "best": "DOCTOR",
+   "rank": 4
+  },
+  {
+   "video_id": "24955",
+   "split": "train",
+   "truth": "GO",
+   "accepted": "HELP",
+   "best": "HELP",
+   "rank": null
+  },
+  {
+   "video_id": "24956",
+   "split": "train",
+   "truth": "GO",
+   "accepted": null,
+   "best": "FRIEND",
+   "rank": null
+  },
+  {
+   "video_id": "24941",
+   "split": "train",
+   "truth": "GO",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 5
+  },
+  {
+   "video_id": "24960",
+   "split": "test",
+   "truth": "GO",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": null
+  },
+  {
+   "video_id": "24961",
+   "split": "train",
+   "truth": "GO",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": null
+  },
+  {
+   "video_id": "24962",
+   "split": "train",
+   "truth": "GO",
+   "accepted": "YES",
+   "best": "YES",
+   "rank": null
+  },
+  {
+   "video_id": "65824",
+   "split": "train",
+   "truth": "GO",
+   "accepted": "DOCTOR",
+   "best": "DOCTOR",
+   "rank": null
+  },
+  {
+   "video_id": "24973",
+   "split": "train",
+   "truth": "GO",
+   "accepted": null,
+   "best": "MORE",
+   "rank": 2
+  },
+  {
+   "video_id": "24943",
+   "split": "train",
+   "truth": "GO",
+   "accepted": "DOCTOR",
+   "best": "DOCTOR",
+   "rank": null
+  },
+  {
+   "video_id": "24946",
+   "split": "val",
+   "truth": "GO",
+   "accepted": null,
+   "best": "HELP",
+   "rank": null
+  },
+  {
+   "video_id": "24947",
+   "split": "train",
+   "truth": "GO",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 2
+  },
+  {
+   "video_id": "24940",
+   "split": "train",
+   "truth": "GO",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 3
+  },
+  {
+   "video_id": "24952",
+   "split": "val",
+   "truth": "GO",
+   "accepted": "HELLO",
+   "best": "HELLO",
+   "rank": null
+  },
+  {
+   "video_id": "24954",
+   "split": "train",
+   "truth": "GO",
+   "accepted": "HELP",
+   "best": "HELP",
+   "rank": null
+  },
+  {
+   "video_id": "69364",
+   "split": "val",
+   "truth": "HELP",
+   "accepted": "DOCTOR",
+   "best": "DOCTOR",
+   "rank": 3
+  },
+  {
+   "video_id": "27221",
+   "split": "train",
+   "truth": "HELP",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 5
+  },
+  {
+   "video_id": "27206",
+   "split": "train",
+   "truth": "HELP",
+   "accepted": null,
+   "best": "DOCTOR",
+   "rank": 5
+  },
+  {
+   "video_id": "27207",
+   "split": "train",
+   "truth": "HELP",
+   "accepted": "YES",
+   "best": "YES",
+   "rank": null
+  },
+  {
+   "video_id": "27208",
+   "split": "train",
+   "truth": "HELP",
+   "accepted": "DOCTOR",
+   "best": "DOCTOR",
+   "rank": 4
+  },
+  {
+   "video_id": "27209",
+   "split": "test",
+   "truth": "HELP",
+   "accepted": null,
+   "best": "MORE",
+   "rank": 4
+  },
+  {
+   "video_id": "65890",
+   "split": "train",
+   "truth": "HELP",
+   "accepted": "DOCTOR",
+   "best": "DOCTOR",
+   "rank": 4
+  },
+  {
+   "video_id": "27213",
+   "split": "test",
+   "truth": "HELP",
+   "accepted": "HELP",
+   "best": "HELP",
+   "rank": 1
+  },
+  {
+   "video_id": "27214",
+   "split": "train",
+   "truth": "HELP",
+   "accepted": "HELP",
+   "best": "HELP",
+   "rank": 1
+  },
+  {
+   "video_id": "65891",
+   "split": "val",
+   "truth": "HELP",
+   "accepted": null,
+   "best": "DOCTOR",
+   "rank": 4
+  },
+  {
+   "video_id": "65889",
+   "split": "train",
+   "truth": "HELP",
+   "accepted": null,
+   "best": "MORE",
+   "rank": 5
+  },
+  {
+   "video_id": "27215",
+   "split": "train",
+   "truth": "HELP",
+   "accepted": null,
+   "best": "HELP",
+   "rank": 1
+  },
+  {
+   "video_id": "27216",
+   "split": "train",
+   "truth": "HELP",
+   "accepted": "HELP",
+   "best": "HELP",
+   "rank": 1
+  },
+  {
+   "video_id": "27217",
+   "split": "train",
+   "truth": "HELP",
+   "accepted": null,
+   "best": "DOCTOR",
+   "rank": 4
+  },
+  {
+   "video_id": "69411",
+   "split": "val",
+   "truth": "NO",
+   "accepted": null,
+   "best": "YES",
+   "rank": 2
+  },
+  {
+   "video_id": "38525",
+   "split": "test",
+   "truth": "NO",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": 1
+  },
+  {
+   "video_id": "38544",
+   "split": "train",
+   "truth": "NO",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": 1
+  },
+  {
+   "video_id": "38527",
+   "split": "train",
+   "truth": "NO",
+   "accepted": null,
+   "best": "MORE",
+   "rank": 2
+  },
+  {
+   "video_id": "38529",
+   "split": "train",
+   "truth": "NO",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": 1
+  },
+  {
+   "video_id": "38530",
+   "split": "train",
+   "truth": "NO",
+   "accepted": null,
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "38532",
+   "split": "train",
+   "truth": "NO",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": 1
+  },
+  {
+   "video_id": "38533",
+   "split": "val",
+   "truth": "NO",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": 1
+  },
+  {
+   "video_id": "66183",
+   "split": "train",
+   "truth": "NO",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": 1
+  },
+  {
+   "video_id": "38524",
+   "split": "train",
+   "truth": "NO",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": 1
+  },
+  {
+   "video_id": "38534",
+   "split": "train",
+   "truth": "NO",
+   "accepted": null,
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "69546",
+   "split": "val",
+   "truth": "YES",
+   "accepted": "YES",
+   "best": "YES",
+   "rank": 1
+  },
+  {
+   "video_id": "64287",
+   "split": "val",
+   "truth": "YES",
+   "accepted": "YES",
+   "best": "YES",
+   "rank": 1
+  },
+  {
+   "video_id": "64284",
+   "split": "train",
+   "truth": "YES",
+   "accepted": "YES",
+   "best": "YES",
+   "rank": 1
+  },
+  {
+   "video_id": "64291",
+   "split": "train",
+   "truth": "YES",
+   "accepted": null,
+   "best": "YES",
+   "rank": 1
+  },
+  {
+   "video_id": "64292",
+   "split": "train",
+   "truth": "YES",
+   "accepted": null,
+   "best": "YES",
+   "rank": 1
+  },
+  {
+   "video_id": "64293",
+   "split": "test",
+   "truth": "YES",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": 2
+  },
+  {
+   "video_id": "66820",
+   "split": "train",
+   "truth": "YES",
+   "accepted": "YES",
+   "best": "YES",
+   "rank": 1
+  },
+  {
+   "video_id": "64280",
+   "split": "train",
+   "truth": "YES",
+   "accepted": "YES",
+   "best": "YES",
+   "rank": 1
+  },
+  {
+   "video_id": "64300",
+   "split": "train",
+   "truth": "YES",
+   "accepted": "SORRY",
+   "best": "SORRY",
+   "rank": 2
+  },
+  {
+   "video_id": "64281",
+   "split": "train",
+   "truth": "YES",
+   "accepted": null,
+   "best": "YES",
+   "rank": 1
+  },
+  {
+   "video_id": "64288",
+   "split": "train",
+   "truth": "YES",
+   "accepted": "YES",
+   "best": "YES",
+   "rank": 1
+  },
+  {
+   "video_id": "64283",
+   "split": "train",
+   "truth": "YES",
+   "accepted": "YES",
+   "best": "YES",
+   "rank": 1
+  },
+  {
+   "video_id": "17015",
+   "split": "train",
+   "truth": "DOCTOR",
+   "accepted": null,
+   "best": "AGAIN",
+   "rank": 4
+  },
+  {
+   "video_id": "17016",
+   "split": "val",
+   "truth": "DOCTOR",
+   "accepted": "DOCTOR",
+   "best": "DOCTOR",
+   "rank": 1
+  },
+  {
+   "video_id": "17017",
+   "split": "train",
+   "truth": "DOCTOR",
+   "accepted": null,
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "17019",
+   "split": "train",
+   "truth": "DOCTOR",
+   "accepted": "DOCTOR",
+   "best": "DOCTOR",
+   "rank": 1
+  },
+  {
+   "video_id": "17020",
+   "split": "test",
+   "truth": "DOCTOR",
+   "accepted": "DOCTOR",
+   "best": "DOCTOR",
+   "rank": 1
+  },
+  {
+   "video_id": "65503",
+   "split": "train",
+   "truth": "DOCTOR",
+   "accepted": null,
+   "best": "WANT",
+   "rank": 2
+  },
+  {
+   "video_id": "65504",
+   "split": "train",
+   "truth": "DOCTOR",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 2
+  },
+  {
+   "video_id": "17013",
+   "split": "train",
+   "truth": "DOCTOR",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 4
+  },
+  {
+   "video_id": "17026",
+   "split": "train",
+   "truth": "DOCTOR",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 3
+  },
+  {
+   "video_id": "17014",
+   "split": "train",
+   "truth": "DOCTOR",
+   "accepted": null,
+   "best": "MORE",
+   "rank": 3
+  },
+  {
+   "video_id": "69307",
+   "split": "val",
+   "truth": "EAT",
+   "accepted": null,
+   "best": "WANT",
+   "rank": 4
+  },
+  {
+   "video_id": "18329",
+   "split": "train",
+   "truth": "EAT",
+   "accepted": "EAT",
+   "best": "EAT",
+   "rank": 1
+  },
+  {
+   "video_id": "65601",
+   "split": "train",
+   "truth": "EAT",
+   "accepted": "EAT",
+   "best": "EAT",
+   "rank": 1
+  },
+  {
+   "video_id": "18323",
+   "split": "val",
+   "truth": "EAT",
+   "accepted": "EAT",
+   "best": "EAT",
+   "rank": 1
+  },
+  {
+   "video_id": "18335",
+   "split": "train",
+   "truth": "EAT",
+   "accepted": "EAT",
+   "best": "EAT",
+   "rank": 1
+  },
+  {
+   "video_id": "18324",
+   "split": "train",
+   "truth": "EAT",
+   "accepted": "THANK",
+   "best": "THANK",
+   "rank": 4
+  },
+  {
+   "video_id": "18325",
+   "split": "train",
+   "truth": "EAT",
+   "accepted": "EAT",
+   "best": "EAT",
+   "rank": 1
+  },
+  {
+   "video_id": "69524",
+   "split": "val",
+   "truth": "WANT",
+   "accepted": "GO",
+   "best": "GO",
+   "rank": 3
+  },
+  {
+   "video_id": "62246",
+   "split": "train",
+   "truth": "WANT",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 1
+  },
+  {
+   "video_id": "62247",
+   "split": "test",
+   "truth": "WANT",
+   "accepted": null,
+   "best": "MORE",
+   "rank": 2
+  },
+  {
+   "video_id": "62248",
+   "split": "train",
+   "truth": "WANT",
+   "accepted": null,
+   "best": "MORE",
+   "rank": 2
+  },
+  {
+   "video_id": "62250",
+   "split": "train",
+   "truth": "WANT",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 1
+  },
+  {
+   "video_id": "62251",
+   "split": "train",
+   "truth": "WANT",
+   "accepted": null,
+   "best": "WANT",
+   "rank": 1
+  },
+  {
+   "video_id": "62244",
+   "split": "val",
+   "truth": "WANT",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 2
+  },
+  {
+   "video_id": "62259",
+   "split": "train",
+   "truth": "WANT",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 2
+  },
+  {
+   "video_id": "62245",
+   "split": "train",
+   "truth": "WANT",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 1
+  },
+  {
+   "video_id": "62505",
+   "split": "val",
+   "truth": "WATER",
+   "accepted": null,
+   "best": "MORE",
+   "rank": null
+  },
+  {
+   "video_id": "62506",
+   "split": "train",
+   "truth": "WATER",
+   "accepted": null,
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "66752",
+   "split": "train",
+   "truth": "WATER",
+   "accepted": "THANK",
+   "best": "THANK",
+   "rank": 3
+  },
+  {
+   "video_id": "62499",
+   "split": "train",
+   "truth": "WATER",
+   "accepted": null,
+   "best": "WATER",
+   "rank": 1
+  },
+  {
+   "video_id": "62510",
+   "split": "train",
+   "truth": "WATER",
+   "accepted": null,
+   "best": "WATER",
+   "rank": 1
+  },
+  {
+   "video_id": "62500",
+   "split": "train",
+   "truth": "WATER",
+   "accepted": "WATER",
+   "best": "WATER",
+   "rank": 1
+  },
+  {
+   "video_id": "62501",
+   "split": "val",
+   "truth": "WATER",
+   "accepted": null,
+   "best": "WATER",
+   "rank": 1
+  },
+  {
+   "video_id": "62502",
+   "split": "train",
+   "truth": "WATER",
+   "accepted": "THANK",
+   "best": "THANK",
+   "rank": 4
+  },
+  {
+   "video_id": "62503",
+   "split": "train",
+   "truth": "WATER",
+   "accepted": "WATER",
+   "best": "WATER",
+   "rank": 1
+  },
+  {
+   "video_id": "69470",
+   "split": "test",
+   "truth": "SICK",
+   "accepted": "AGAIN",
+   "best": "AGAIN",
+   "rank": 4
+  },
+  {
+   "video_id": "51517",
+   "split": "val",
+   "truth": "SICK",
+   "accepted": null,
+   "best": "HELLO",
+   "rank": 4
+  },
+  {
+   "video_id": "51502",
+   "split": "train",
+   "truth": "SICK",
+   "accepted": null,
+   "best": "AGAIN",
+   "rank": 2
+  },
+  {
+   "video_id": "51503",
+   "split": "train",
+   "truth": "SICK",
+   "accepted": "AGAIN",
+   "best": "AGAIN",
+   "rank": 5
+  },
+  {
+   "video_id": "51504",
+   "split": "train",
+   "truth": "SICK",
+   "accepted": null,
+   "best": "AGAIN",
+   "rank": 3
+  },
+  {
+   "video_id": "51507",
+   "split": "train",
+   "truth": "SICK",
+   "accepted": null,
+   "best": "HELLO",
+   "rank": 2
+  },
+  {
+   "video_id": "66475",
+   "split": "train",
+   "truth": "SICK",
+   "accepted": null,
+   "best": "HELLO",
+   "rank": 4
+  },
+  {
+   "video_id": "51501",
+   "split": "train",
+   "truth": "SICK",
+   "accepted": null,
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "01466",
+   "split": "train",
+   "truth": "AGAIN",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 4
+  },
+  {
+   "video_id": "65032",
+   "split": "val",
+   "truth": "AGAIN",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 3
+  },
+  {
+   "video_id": "01460",
+   "split": "train",
+   "truth": "AGAIN",
+   "accepted": null,
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "01471",
+   "split": "train",
+   "truth": "AGAIN",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 3
+  },
+  {
+   "video_id": "01461",
+   "split": "train",
+   "truth": "AGAIN",
+   "accepted": null,
+   "best": "WANT",
+   "rank": 2
+  },
+  {
+   "video_id": "01462",
+   "split": "val",
+   "truth": "AGAIN",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": null
+  },
+  {
+   "video_id": "01463",
+   "split": "train",
+   "truth": "AGAIN",
+   "accepted": null,
+   "best": "AGAIN",
+   "rank": 1
+  },
+  {
+   "video_id": "01464",
+   "split": "train",
+   "truth": "AGAIN",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 3
+  },
+  {
+   "video_id": "23574",
+   "split": "train",
+   "truth": "FRIEND",
+   "accepted": null,
+   "best": "DOCTOR",
+   "rank": 2
+  },
+  {
+   "video_id": "65782",
+   "split": "val",
+   "truth": "FRIEND",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 4
+  },
+  {
+   "video_id": "23578",
+   "split": "train",
+   "truth": "FRIEND",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 3
+  },
+  {
+   "video_id": "23568",
+   "split": "train",
+   "truth": "FRIEND",
+   "accepted": null,
+   "best": "WANT",
+   "rank": 3
+  },
+  {
+   "video_id": "23569",
+   "split": "val",
+   "truth": "FRIEND",
+   "accepted": "FRIEND",
+   "best": "FRIEND",
+   "rank": 1
+  },
+  {
+   "video_id": "23570",
+   "split": "train",
+   "truth": "FRIEND",
+   "accepted": null,
+   "best": "MORE",
+   "rank": 3
+  },
+  {
+   "video_id": "23572",
+   "split": "train",
+   "truth": "FRIEND",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 3
+  },
+  {
+   "video_id": "69405",
+   "split": "test",
+   "truth": "NAME",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 4
+  },
+  {
+   "video_id": "37580",
+   "split": "val",
+   "truth": "NAME",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 5
+  },
+  {
+   "video_id": "37590",
+   "split": "train",
+   "truth": "NAME",
+   "accepted": null,
+   "best": "MORE",
+   "rank": null
+  },
+  {
+   "video_id": "37581",
+   "split": "train",
+   "truth": "NAME",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": null
+  },
+  {
+   "video_id": "37582",
+   "split": "train",
+   "truth": "NAME",
+   "accepted": null,
+   "best": "WANT",
+   "rank": 3
+  },
+  {
+   "video_id": "37585",
+   "split": "train",
+   "truth": "NAME",
+   "accepted": null,
+   "best": "WANT",
+   "rank": 5
+  },
+  {
+   "video_id": "58594",
+   "split": "train",
+   "truth": "TIRED",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 5
+  },
+  {
+   "video_id": "58600",
+   "split": "train",
+   "truth": "TIRED",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 4
+  },
+  {
+   "video_id": "58589",
+   "split": "train",
+   "truth": "TIRED",
+   "accepted": null,
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "58590",
+   "split": "val",
+   "truth": "TIRED",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "58591",
+   "split": "train",
+   "truth": "TIRED",
+   "accepted": null,
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "58592",
+   "split": "train",
+   "truth": "TIRED",
+   "accepted": null,
+   "best": "MORE",
+   "rank": null
+  },
+  {
+   "video_id": "58593",
+   "split": "train",
+   "truth": "TIRED",
+   "accepted": null,
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "69401",
+   "split": "train",
+   "truth": "MORE",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 2
+  },
+  {
+   "video_id": "36830",
+   "split": "val",
+   "truth": "MORE",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 1
+  },
+  {
+   "video_id": "36834",
+   "split": "train",
+   "truth": "MORE",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 1
+  },
+  {
+   "video_id": "36836",
+   "split": "train",
+   "truth": "MORE",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 1
+  },
+  {
+   "video_id": "36840",
+   "split": "test",
+   "truth": "MORE",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 1
+  },
+  {
+   "video_id": "36827",
+   "split": "train",
+   "truth": "MORE",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 2
+  },
+  {
+   "video_id": "36828",
+   "split": "train",
+   "truth": "MORE",
+   "accepted": "MORE",
+   "best": "MORE",
+   "rank": 1
+  },
+  {
+   "video_id": "36829",
+   "split": "train",
+   "truth": "MORE",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 2
+  },
+  {
+   "video_id": "69434",
+   "split": "train",
+   "truth": "PLEASE",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 4
+  },
+  {
+   "video_id": "43226",
+   "split": "train",
+   "truth": "PLEASE",
+   "accepted": "THANK",
+   "best": "THANK",
+   "rank": 2
+  },
+  {
+   "video_id": "43217",
+   "split": "train",
+   "truth": "PLEASE",
+   "accepted": "THANK",
+   "best": "THANK",
+   "rank": 2
+  },
+  {
+   "video_id": "43218",
+   "split": "train",
+   "truth": "PLEASE",
+   "accepted": "AGAIN",
+   "best": "AGAIN",
+   "rank": null
+  },
+  {
+   "video_id": "43219",
+   "split": "test",
+   "truth": "PLEASE",
+   "accepted": "AGAIN",
+   "best": "AGAIN",
+   "rank": 5
+  },
+  {
+   "video_id": "43220",
+   "split": "val",
+   "truth": "PLEASE",
+   "accepted": null,
+   "best": "PLEASE",
+   "rank": 1
+  },
+  {
+   "video_id": "43222",
+   "split": "train",
+   "truth": "PLEASE",
+   "accepted": "THANK",
+   "best": "THANK",
+   "rank": 2
+  },
+  {
+   "video_id": "69450",
+   "split": "train",
+   "truth": "SAD",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": 3
+  },
+  {
+   "video_id": "48976",
+   "split": "train",
+   "truth": "SAD",
+   "accepted": null,
+   "best": "WANT",
+   "rank": 5
+  },
+  {
+   "video_id": "48978",
+   "split": "train",
+   "truth": "SAD",
+   "accepted": null,
+   "best": "TIRED",
+   "rank": 5
+  },
+  {
+   "video_id": "48971",
+   "split": "train",
+   "truth": "SAD",
+   "accepted": "AGAIN",
+   "best": "AGAIN",
+   "rank": 2
+  },
+  {
+   "video_id": "48983",
+   "split": "val",
+   "truth": "SAD",
+   "accepted": "TIRED",
+   "best": "TIRED",
+   "rank": 5
+  },
+  {
+   "video_id": "48972",
+   "split": "test",
+   "truth": "SAD",
+   "accepted": "AGAIN",
+   "best": "AGAIN",
+   "rank": 2
+  },
+  {
+   "video_id": "48973",
+   "split": "train",
+   "truth": "SAD",
+   "accepted": "SAD",
+   "best": "SAD",
+   "rank": 1
+  },
+  {
+   "video_id": "48974",
+   "split": "train",
+   "truth": "SAD",
+   "accepted": null,
+   "best": "SAD",
+   "rank": 1
+  },
+  {
+   "video_id": "53371",
+   "split": "train",
+   "truth": "SORRY",
+   "accepted": "SORRY",
+   "best": "SORRY",
+   "rank": 1
+  },
+  {
+   "video_id": "66536",
+   "split": "train",
+   "truth": "SORRY",
+   "accepted": "SORRY",
+   "best": "SORRY",
+   "rank": 1
+  },
+  {
+   "video_id": "53365",
+   "split": "train",
+   "truth": "SORRY",
+   "accepted": "SORRY",
+   "best": "SORRY",
+   "rank": 1
+  },
+  {
+   "video_id": "53375",
+   "split": "test",
+   "truth": "SORRY",
+   "accepted": "YES",
+   "best": "YES",
+   "rank": 3
+  },
+  {
+   "video_id": "53366",
+   "split": "val",
+   "truth": "SORRY",
+   "accepted": null,
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "53367",
+   "split": "test",
+   "truth": "SORRY",
+   "accepted": "DOCTOR",
+   "best": "DOCTOR",
+   "rank": 5
+  },
+  {
+   "video_id": "53370",
+   "split": "train",
+   "truth": "SORRY",
+   "accepted": "SORRY",
+   "best": "SORRY",
+   "rank": 1
+  },
+  {
+   "video_id": "69502",
+   "split": "train",
+   "truth": "THANK",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "66598",
+   "split": "train",
+   "truth": "THANK",
+   "accepted": null,
+   "best": "PLEASE",
+   "rank": 2
+  },
+  {
+   "video_id": "57655",
+   "split": "train",
+   "truth": "THANK",
+   "accepted": "WANT",
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "57667",
+   "split": "test",
+   "truth": "THANK",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": 3
+  },
+  {
+   "video_id": "57656",
+   "split": "val",
+   "truth": "THANK",
+   "accepted": null,
+   "best": "PLEASE",
+   "rank": 3
+  },
+  {
+   "video_id": "57657",
+   "split": "test",
+   "truth": "THANK",
+   "accepted": "THANK",
+   "best": "THANK",
+   "rank": 1
+  },
+  {
+   "video_id": "57659",
+   "split": "train",
+   "truth": "THANK",
+   "accepted": null,
+   "best": "WANT",
+   "rank": null
+  },
+  {
+   "video_id": "60551",
+   "split": "val",
+   "truth": "UNDERSTAND",
+   "accepted": "UNDERSTAND",
+   "best": "UNDERSTAND",
+   "rank": 1
+  },
+  {
+   "video_id": "66704",
+   "split": "train",
+   "truth": "UNDERSTAND",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": 2
+  },
+  {
+   "video_id": "60545",
+   "split": "train",
+   "truth": "UNDERSTAND",
+   "accepted": null,
+   "best": "UNDERSTAND",
+   "rank": 1
+  },
+  {
+   "video_id": "60546",
+   "split": "train",
+   "truth": "UNDERSTAND",
+   "accepted": null,
+   "best": "UNDERSTAND",
+   "rank": 1
+  },
+  {
+   "video_id": "60547",
+   "split": "test",
+   "truth": "UNDERSTAND",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": 3
+  },
+  {
+   "video_id": "60548",
+   "split": "test",
+   "truth": "UNDERSTAND",
+   "accepted": "NO",
+   "best": "NO",
+   "rank": 3
+  },
+  {
+   "video_id": "60556",
+   "split": "train",
+   "truth": "UNDERSTAND",
+   "accepted": null,
+   "best": "UNDERSTAND",
+   "rank": 1
+  },
+  {
+   "video_id": "27184",
+   "split": "train",
+   "truth": "HELLO",
+   "accepted": "HELLO",
+   "best": "HELLO",
+   "rank": 1
+  },
+  {
+   "video_id": "27172",
+   "split": "test",
+   "truth": "HELLO",
+   "accepted": null,
+   "best": "AGAIN",
+   "rank": 2
+  },
+  {
+   "video_id": "27173",
+   "split": "train",
+   "truth": "HELLO",
+   "accepted": "HELLO",
+   "best": "HELLO",
+   "rank": 1
+  },
+  {
+   "video_id": "27177",
+   "split": "val",
+   "truth": "HELLO",
+   "accepted": "HELLO",
+   "best": "HELLO",
+   "rank": 1
+  }
+ ]
+}

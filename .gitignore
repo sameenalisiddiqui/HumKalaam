@@ -1,0 +1,15 @@
+node_modules/
+dist/
+ml/.venv/
+ml/data/raw/
+ml/data/processed/landmarks/
+ml/models/bert-base-uncased/
+ml/models/bert-sign-encoder/
+ml/report/.chrome-profile/
+ml/logs/
+# Large or regenerable ML files (scripts in ml/scripts rebuild them)
+ml/models/
+ml/data/processed/wlasl_features.csv.gz
+ml/data/processed/wlasl_landmarks_raw.csv.gz
+ml/data/processed/sequences.npz
+ml/data/processed/app20_raw.json
